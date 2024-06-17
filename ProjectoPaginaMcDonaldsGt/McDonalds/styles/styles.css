@@ -1,0 +1,392 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+#navbar {
+  display: flex;
+  background-color: #ffffff;
+  border-bottom: 1px solid lightgrey;
+  gap: 95px;
+  position: sticky;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  z-index: 1100;
+}
+
+#navbar .navbar1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 64px;
+  padding-left: 5px;
+  padding-right: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1200px;
+  height: 60px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.navbar2 .logo img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 45px;
+  max-height: 45px;
+}
+
+#los50 {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar2 .menu-izq {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 800px;
+  height: 70px;
+}
+
+.navbar2 .menu-izq .menu-abajo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.85em;
+  gap: 20px;
+}
+.navbar2 .menu-izq .menu-abajo .los50 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.menu-izq .menu-arriba {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  gap: 25px;
+  font-size: 0.85em;
+  height: 34px;
+}
+
+.navbar2 .menu-izq a {
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+}
+
+
+
+.navbar2 .menuderecha button {
+  border-radius: 50px;
+  border-color: #fdbb1f;
+  font-weight: bold;
+  background-color: #fdbb1f;
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.5rem;
+}
+
+.navbar2 .menuderecha {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  color: #000000;
+  padding: 8px 15px;
+}
+
+.navbar2 .menuderecha .encuentraturest {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+
+.navbar2 .menuderecha .encuentraturest a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar1 .nav-links a:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+
+
+#banners {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 2700px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  gap: 40px;
+}
+
+.primerbanner {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primerbanner img {
+  align-content: center;
+  width: 1200px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons button {
+  display: flex;
+  flex-direction: row;
+  background: #fdbb1f;
+  border: none;
+  color: black;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.conocebanner {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conocebanner img {
+  align-content: center;
+  width: 1200px;
+  position: relative;
+}
+
+.ir-menu {
+  border-radius: 50px;
+  border-color: #ffffff;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.5rem;
+  position: absolute;
+  top: 1060px;
+  left: 950px;
+  width: 150px;
+}
+
+.chatapp {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+}
+
+.chatapp h4 {
+  font-size: large;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  place-self: center;
+}
+
+.chatapp p {
+  font-size: 1rem;
+  line-height: 1rem;
+  place-self: center;
+  width: 500px;
+}
+
+.chatapp .chatapp-banner-1 {
+  width: 581px;
+  height: 799px;
+  background-color: #f0efef;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.chatapp .chatapp-banner-2 {
+  width: 581px;
+  height: 799px;
+  background-color: #f0efef;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.chatapp .chatapp-image {
+  height: 450px;
+}
+
+.chatapp .chatapp-title {
+  display: grid;
+  grid-template-rows: 25px;
+  align-self: center;
+}
+
+.chatapp .chatapp-buttons {
+  border-radius: 55px;
+  border-color: #fdbb1f;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #fdbb1f;
+  width: 180px;
+  height: 40px;
+}
+
+.mccajita {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mccajita img {
+  align-content: center;
+  width: 1200px;
+}
+
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 100%;
+
+  top: 0;
+}
+
+#footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 247px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-top: 1px solid lightgrey;
+}
+
+#footer .inside-container1 {
+  display: flex;
+  display: column;
+  justify-content: space-between;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .inside-container2 {
+  display: flex;
+  display: row;
+  align-items: flex-end;
+  width: 1200px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .inside-container3 {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.85em;
+}
+
+#footer .inside-container2 a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+#footer .footer-menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 24px;
+}
+
+#footer .footer-menu-items .menu-item {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.footerlogo {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 0.85em;
+}
+
+.footerlogo p a {
+  color: #000000;
+}
+
+.footerlogo img {
+  width: 38px;
+  height: 38px;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-icons .icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
